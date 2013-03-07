@@ -6,8 +6,9 @@
  * @date      06/02/2013
  * @author    d.feldle@ackwa.fr
  * @see       http://www.ackwa.fr
- * @require   migx
- * @copyright (c) 2010 - Ackwa
+ * @require   migx - http://rtfm.modx.com/display/ADDON/MIGX
+ *            Twitter Bootstrap carousel - http://twitter.github.com/bootstrap/
+ * @copyright (c) 2013 - Ackwa
  *===============================================================================
  * @history   0.1 - 06/02/13 - Création
  *===============================================================================
@@ -57,6 +58,6 @@ if ($tv && $itemTpl && $containerTpl){
     return $modx->getChunk($containerTpl, $tabParam);  
 }
 else{
-    $modx->log(xPDO::LOG_LEVEL_ERROR, "Paramètre(s) manquant(s)");
+    $modx->log(xPDO::LOG_LEVEL_ERROR, "btCarousel : Paramètre(s) manquant(s)");
     return false;
 }
