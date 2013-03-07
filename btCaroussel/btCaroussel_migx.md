@@ -5,7 +5,7 @@
 
 Nous aurons besoin de 3 TV (2 type texte et 1 type image). Et d'un 4e TV, qui sera le migX lui-même.
 
-Dans Form tab, j'ai mis ce JSON :
+Dans le champs Form tab du migx :
 
     [
         {"caption":"Slider", "fields": [
